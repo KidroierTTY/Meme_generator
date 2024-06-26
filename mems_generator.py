@@ -14,9 +14,9 @@ print("2. Кот в очках")
 image_number = int(input("Введи номер нужной тебе картинки:"))
 
 if image_number == 1:
-    image_file = "Кот_в_ресторане.png"
+    image_file = "Кот в ресторане.png"
 else:
-    image_file = "Кот_в_очках.png"
+    image_file = "Кот в очках.png"
 
 image = Image.open(image_file)
 wigth, height = image.size
